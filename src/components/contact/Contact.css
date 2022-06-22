@@ -1,0 +1,55 @@
+.contact .right {
+    padding: 50px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact p {
+    margin: 30px 0;
+}
+
+.contact .box p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.contact textarea, .contact input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.contact .flexSB input:nth-child() {
+    margin-right: 10px;
+}
+
+.contact h3 {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact span {
+    color: #1eb2a6;
+    font-weight: 600;
+    font-size: 15px;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts .container {
+      flex-direction: column;
+    }
+    .contacts iframe {
+      height: 50vh;
+    }
+    .contacts .row {
+      width: 100%;
+    }
+  }
